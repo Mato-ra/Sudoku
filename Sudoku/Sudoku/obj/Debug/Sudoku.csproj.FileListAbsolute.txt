@@ -1,0 +1,30 @@
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SudokuForm.resources
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.cache
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.CoreCompileInputs.cache
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.exe
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.pdb
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.csprojAssemblyReference.cache
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SaveForm.resources
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.GeneratorSettingsForm.resources
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SudokuMenu.resources
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.PregeneratedPuzzleForm.resources
+C:\Users\martti.rasilainen\Arbeiten\VSProjekte\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SudokuMarksForm.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.csprojAssemblyReference.cache
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.GeneratorSettingsForm.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.PregeneratedPuzzleForm.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SaveForm.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SudokuForm.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SudokuMarksForm.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.SudokuMenu.resources
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.cache
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.CoreCompileInputs.cache
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.exe
+H:\Eigene Dateien\Meine\T4MPraktikum\Sudoku\Sudoku\Sudoku\obj\Debug\Sudoku.pdb

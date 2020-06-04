@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9EDFA23-C551-4F83-9C01-FD072C603796}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sudoku</RootNamespace>
+    <AssemblyName>Sudoku</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GeneratorSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneratorSettingsForm.Designer.cs">
+      <DependentUpon>GeneratorSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PregeneratedPuzzleContainerClass.cs" />
+    <Compile Include="PregeneratedPuzzleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PregeneratedPuzzleForm.Designer.cs">
+      <DependentUpon>PregeneratedPuzzleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveForm.Designer.cs">
+      <DependentUpon>SaveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeedConverter.cs" />
+    <Compile Include="Solver.cs" />
+    <Compile Include="Sudoku.cs" />
+    <Compile Include="SudokuFileReader.cs" />
+    <Compile Include="SudokuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SudokuForm.Designer.cs">
+      <DependentUpon>SudokuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SudokuMarksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SudokuMarksForm.Designer.cs">
+      <DependentUpon>SudokuMarksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SudokuMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SudokuMenu.Designer.cs">
+      <DependentUpon>SudokuMenu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GeneratorSettingsForm.resx">
+      <DependentUpon>GeneratorSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PregeneratedPuzzleForm.resx">
+      <DependentUpon>PregeneratedPuzzleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveForm.resx">
+      <DependentUpon>SaveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SudokuForm.resx">
+      <DependentUpon>SudokuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SudokuMarksForm.resx">
+      <DependentUpon>SudokuMarksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SudokuMenu.resx">
+      <DependentUpon>SudokuMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PregeneratedPuzzles.txt" />
+    <None Include="Properties\PregeneratedPuzzles.txt" />
+    <None Include="Properties\ExtremelyHardFalse.txt" />
+    <None Include="Properties\VeryHardFalse.txt" />
+    <None Include="Properties\NormalTrue.txt" />
+    <None Include="Properties\NormalFalse.txt" />
+    <None Include="Properties\HardTrue.txt" />
+    <None Include="Properties\HardFalse.txt" />
+    <None Include="Properties\EasyTrue.txt" />
+    <None Include="Properties\EasyFalse.txt" />
+    <None Include="Properties\ExtremelyHardTrue.txt" />
+    <EmbeddedResource Include="Properties\VeryHardTrue.txt">
+      <CustomToolNamespace>Seeds</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
